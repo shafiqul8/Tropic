@@ -87,3 +87,17 @@ total = 0
 for i in range(1, n + 1):
     total += i
 print(f"\nSum of first {n} numbers is:", total)
+
+#Excersice----------
+
+#1
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+#2
+n = int(input("Enter a number for its table: "))
+for i in range(1, 11):
+    print(f"{n} x {i} = {n * i}")
