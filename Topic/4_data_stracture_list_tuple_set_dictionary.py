@@ -104,3 +104,24 @@ nested = {
 }
 print("\nNested Dictionary Example:", nested)
 print("Student2 name:", nested["student2"]["name"])
+
+#Excersice Section------------------------
+#1
+numbers = [1, 2, 3, 4, 5]
+even_numbers = [num for num in numbers if num % 2 == 0]
+print("Even numbers:", even_numbers)
+
+#2
+students = {
+    "Alice": 85,
+    "Bob": 90,
+    "Charlie": 78
+}
+for name, marks in students.items():
+    print(f"{name}: {marks}")
+
+#3
+numbers = {1, 3, 5, 7, 9}
+numbers.add(11)
+numbers.discard(3)
+print("Final Set:", numbers)
